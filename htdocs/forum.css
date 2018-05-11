@@ -1,0 +1,98 @@
+body{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Century Schoolbook";
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#fixed{
+    height: 20px;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+#fixed span{
+    float: right;
+    margin-right: 10px;
+}
+
+#fixed span a:enabled{
+    color: white;
+    text-decoration: none;
+}
+
+#banner{
+    height: 120px;
+    width: 100%;
+    background-image: url('banner.png');
+}
+
+#main{
+    height: calc(100% - 120px - 20px - 20px);
+    width: 100%;
+    overflow: auto;
+    background-color: #ededed;
+}
+
+.cat a{
+    color: black;
+    text-decoration: none;
+}
+
+.cat a:hover{
+    color: #7f7f95;
+}
+
+#footer{
+    height: 20px;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.cat{
+    height: 100px;
+    width: calc(100%);
+    background-color: #ededed;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.post{
+    height: 100px;
+    width: 100%;
+    background-color: #ededed;
+    border-bottom: 1px solid black;
+}
+
+.post a{
+    color: black;
+    text-decoration: none;
+}
+
+#area{
+    margin-top: 50px;
+    margin-left: calc(50% - 275px);
+    height: 200px;
+    width: 550px;
+    resize: none;
+}
+
+.post a:hover{
+    color: #7f7f95;
+}
+
+#main form{
+    margin-top: calc(20%);
+}
+
