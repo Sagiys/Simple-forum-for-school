@@ -1,7 +1,9 @@
 # Simple-forum-for-school
 Simple something what should look like forum but its poor and ugly ;d
 
-First import mysql database from forum (1).sql
+First u need to create database called "forum" and then import mysql database from forum.sql
 
 Admin login: admin
-Admin pass: qwerty123
+Admin pass: admin
+
+
